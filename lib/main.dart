@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_ordering_system/pages/foodcategory.dart';
 import 'package:food_ordering_system/pages/getstarted.dart';
 import 'package:food_ordering_system/pages/homepage.dart';
 
@@ -14,7 +15,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'Food Ordering System',
       debugShowCheckedModeBanner: false,
-      home: HomePage()
+      home: FoodCategory()
     );
   }
 }
